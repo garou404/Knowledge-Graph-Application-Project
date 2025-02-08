@@ -19,7 +19,7 @@ Doinb,Ninjas in Pyjamas,Midlane,LPL,2025,South Korea,Teemo
 Elk,Bilibili Gaming,Botlane,LPL,2025,China,Hecarim
 Feather,ThunderTalk Gaming,Support,LPL,2025,China,Jarvan IV
 Flandre,Anyone's Legend,Toplane,LPL,2025,China,Brand
-GALA,Invictus Gaming,Botlane,LPL,2025,China,Nunu & Willump
+GALA,Invictus Gaming,Botlane,LPL,2025,China,Nunu and Willump
 haichao,LNG Esports,Midlane,LPL,2025,China,Fiora
 Hang,Weibo Gaming,Support,LPL,2025,China,Camille
 Heng,Oh My God,Jungle,LPL,2025,China,Vel'Koz
@@ -79,7 +79,7 @@ Ycx,LGD Gaming,Support,LPL,2025,China,Skarner
 Zdz,EDward Gaming,Toplane,LPL,2025,China,Volibear
 Zhuo,LNG Esports,Support,LPL,2025,China,Nasus
 Zika,LNG Esports,Toplane,LPL,2025,China,Shyvana
-,T1,Midlane,LCK,2025,unknown,Galio
+Faker,T1,Midlane,LCK,2025,unknown,Galio
 Aiming,Dplus KIA,Botlane,LCK,2025,South Korea,Senna
 Andil,DRX,Support,LCK,2025,South Korea,Hwei
 Bdd,KT Rolster,Midlane,LCK,2025,South Korea,Zac
@@ -121,7 +121,7 @@ Pungyeon,DN Freecs,Midlane,LCK,2025,South Korea,Orianna
 Pyosik,DN Freecs,Jungle,LCK,2025,South Korea,Tryndamere
 Raptor,BNK FEARX,Jungle,LCK,2025,unknown,Mordekaiser
 Rich,DRX,Toplane,LCK,2025,unknown,Gnar
-Ruler,Gen.G,Botlane,LCK,2025,South Korea,Nunu & Willump
+Ruler,Gen.G,Botlane,LCK,2025,South Korea,Nunu and Willump
 ShowMaker,Dplus KIA,Midlane,LCK,2025,South Korea,Yone
 Siwoo,Dplus KIA,Toplane,LCK,2025,South Korea,Shyvana
 Smash,T1,Botlane,LCK,2025,unknown,Tahm Kench
@@ -133,7 +133,7 @@ Viper,Hanwha Life Esports,Botlane,LCK,2025,unknown,Braum
 Way,KT Rolster,Support,LCK,2025,unknown,Aatrox
 Zeka,Hanwha Life Esports,Midlane,LCK,2025,unknown,Naafiri
 Zeus,Hanwha Life Esports,Toplane,LCK,2025,South Korea,Fiddlesticks
-,T1,Midlane,LCK,2024,unknown,Sion
+Faker,T1,Midlane,LCK,2024,unknown,Sion
 Aiming,Dplus KIA,Botlane,LCK,2024,South Korea,Caitlyn
 Andil,DN Freecs,Support,LCK,2024,South Korea,Master Yi
 Bdd,KT Rolster,Midlane,LCK,2024,South Korea,Ornn
@@ -154,13 +154,13 @@ DnDn,Nongshim RedForce,Toplane,LCK,2024,South Korea,Nami
 Doran,Hanwha Life Esports,Toplane,LCK,2024,unknown,Shaco
 DuDu,DN Freecs,Toplane,LCK,2024,unknown,Sylas
 Duro,BNK FEARX,Support,LCK,2024,South Korea,Nidalee
-Envyy,OKSavingsBank BRION,Botlane,LCK,2024,South Korea,Nunu & Willump
+Envyy,OKSavingsBank BRION,Botlane,LCK,2024,South Korea,Nunu and Willump
 Execute,BNK FEARX,Support,LCK,2024,South Korea,Bel'Veth
 FATE,OKSavingsBank BRION,Midlane,LCK,2024,unknown,Ornn
 Fisher,Nongshim RedForce,Midlane,LCK,2024,unknown,Zed
 Frog,DRX,Toplane,LCK,2024,unknown,Volibear
 GuGer,Nongshim RedForce,Support,LCK,2024,South Korea,Jarvan IV
-Gumayusi,T1,Botlane,LCK,2024,South Korea,Nunu & Willump
+Gumayusi,T1,Botlane,LCK,2024,South Korea,Nunu and Willump
 Hena,BNK FEARX,Botlane,LCK,2024,South Korea,Garen
 Jiwoo,Nongshim RedForce,Botlane,LCK,2024,South Korea,Veigar
 Karis,OKSavingsBank BRION,Midlane,LCK,2024,South Korea,Yone
@@ -262,7 +262,7 @@ Czajek,Team Vitality,Midlane,LEC,2025,Poland,Briar
 Elyoya,Movistar KOI,Jungle,LEC,2025,Spain,Vel'Koz
 Execute,Rogue,Support,LEC,2025,South Korea,Lulu
 Flakked,Team Heretics,Botlane,LEC,2025,Spain,Morgana
-Hans Sama,G2 Esports,Botlane,LEC,2025,France,Nunu & Willump
+Hans Sama,G2 Esports,Botlane,LEC,2025,France,Nunu and Willump
 Humanoid,Fnatic,Midlane,LEC,2025,Czech Republic,Rek'Sai
 Hylissang,Team Vitality,Support,LEC,2025,Bulgaria,Wukong
 Ice,Team BDS,Botlane,LEC,2025,unknown,Irelia
@@ -296,7 +296,7 @@ Stend,Team Heretics,Support,LEC,2025,France,Nidalee
 Supa,Movistar KOI,Botlane,LEC,2025,Spain,Yorick
 Targamas,Karmine Corp,Support,LEC,2025,Belgium,Samira
 Upset,Fnatic,Botlane,LEC,2025,Germany,Pantheon
-Vladi,Karmine Corp,Midlane,LEC,2025,Greece,Kled & Skaarl
+Vladi,Karmine Corp,Midlane,LEC,2025,Greece,Kled and Skaarl
 Yike,Karmine Corp,Jungle,LEC,2025,Sweden/Sweden/Peru,Vayne
 1xn,ThunderTalk Gaming,Botlane,LPL,2024,China,Caitlyn
 369,Top Esports,Toplane,LPL,2024,China,Fiddlesticks
@@ -317,7 +317,7 @@ Croco,Anyone's Legend,Jungle,LPL,2024,South Korea,Lee Sin
 Cryin,EDward Gaming,Midlane,LPL,2024,China,Ekko
 deokdam,FunPlus Phoenix,Botlane,LPL,2024,South Korea,Tahm Kench
 Doggo,Ultra Prime,Botlane,LPL,2024,Taiwan,Yasuo
-Elk,Bilibili Gaming,Botlane,LPL,2024,China,Nunu & Willump
+Elk,Bilibili Gaming,Botlane,LPL,2024,China,Nunu and Willump
 Feather,ThunderTalk Gaming,Support,LPL,2024,China,Master Yi
 FoFo,Team WE,Midlane,LPL,2024,Taiwan,Rammus
 GALA,LNG Esports,Botlane,LPL,2024,China,Twitch
