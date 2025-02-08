@@ -1,0 +1,171 @@
+Champion,Region,healthPoints,attackDamage,attackSpeed,armor,magicResist,movementSpeed,ressourceType,role,Player
+Aatrox,Unknown,650,60,0.651,38.0,32.0,345,energy,Support,['Way']
+Ahri,Ionia,590,53,0.668,21.0,30.0,330,mana,Jungle,"['GIDEON', 'Juhan', 'Weiwei']"
+Akali,Ionia,600,62,0.625,23.0,37.0,345,mana,Botlane,"['Deft', 'Teddy']"
+Akshan,Shurima,630,52,0.638,26.0,30.0,330,mana,Botlane,['Patrik']
+Alistar,Runeterra,685,62,0.625,47.0,32.0,330,mana,Support,
+Amumu,Shurima,685,57,0.736,33.0,32.0,335,mana,Botlane,['Upset']
+Anivia,The Freljord,550,51,0.658,21.0,30.0,325,mana,Toplane,['Myrwn']
+Annie,Noxus,560,50,0.61,19.0,30.0,335,mana,Jungle,"['Beichuan', 'Canyon', 'HamBak']"
+Aphelios,Targon,600,55,0.64,26.0,30.0,325,mana,Jungle,['milkyway']
+Ashe,The Freljord,610,59,0.658,26.0,30.0,325,mana,Toplane,"['Bin', 'Hery']"
+Aurelion Sol,Targon,600,58,0.625,22.0,30.0,335,mana,Botlane,"['Ahn', 'Taeyoon']"
+Aurora,The Freljord,607,53,0.668,23.0,30.0,335,mana,Support,['MISSING']
+Azir,Shurima,550,56,0.625,25.0,30.0,335,mana,Support,
+Bard,Unknown,630,52,0.658,34.0,30.0,330,mana,Botlane,"['Gumayusi', 'Shaoye']"
+Bel'Veth,The Void,610,60,0.85,32.0,32.0,340,energy,Support,"['Execute', 'Jun', 'Keria', 'Lehends']"
+Blitzcrank,Zaun,600,62,0.625,37.0,32.0,325,mana,Midlane,['BuLLDoG']
+Brand,Runeterra,570,57,0.681,27.0,30.0,340,mana,Toplane,"['Carlsen', 'Doran', 'Flandre', 'Myrwn', 'PerfecT', 'Th3Antonio']"
+Braum,The Freljord,610,55,0.644,47.0,32.0,335,mana,Botlane,['Viper']
+Briar,Noxus,625,60,0.644,30.0,32.0,340,energy,Midlane,"['Callme', 'Clozer', 'Czajek', 'Nisqy']"
+Caitlyn,Piltover,580,60,0.681,27.0,30.0,325,mana,Botlane,"['1xn', 'Aiming', 'Assum', 'deokdam']"
+Camille,Piltover,650,68,0.644,35.0,32.0,340,mana,Support,['Hang']
+Cassiopeia,Noxus,630,53,0.647,18.0,32.0,328,mana,Midlane,['Calix']
+Cho'Gath,The Void,644,69,0.625,38.0,32.0,345,mana,Jungle,"['Beichuan', 'ISMA', 'Pyosik', 'sorrow']"
+Corki,Bandle City,610,52,0.644,30.0,30.0,325,mana,Botlane,"['Rahel', 'Starry']"
+Darius,Noxus,652,64,0.625,39.0,32.0,340,mana,Support,"['Alvaro', 'Mikyx']"
+Diana,Targon,640,57,0.625,31.0,32.0,345,mana,Toplane,"['Casting', 'Zdz']"
+Dr. Mundo,Zaun,613,61,0.67,32.0,29.0,345,energy,Toplane,"['JNX', 'Kingen', 'Oscarinin', 'Zika', 'sheer']"
+Draven,Noxus,675,62,0.679,29.0,30.0,330,mana,Botlane,['Leaper']
+Ekko,Zaun,655,58,0.688,32.0,32.0,340,mana,Midlane,"['Creme', 'Cryin', 'Tangyuan', 'VicLa']"
+Elise,Shadow Isles,650,55,0.625,30.0,30.0,330,mana,Jungle,"['Kanavi', 'Oner', 'Peanut', 'glfs']"
+Evelynn,Unknown,642,61,0.667,37.0,32.0,335,mana,Jungle,['YoungJae']
+Ezreal,Piltover,600,60,0.625,24.0,30.0,325,mana,Midlane,"['Fisher', 'Pullbae', 'Saber', 'Zeka']"
+Fiddlesticks,Unknown,650,55,0.625,34.0,30.0,335,mana,Toplane,"['369', 'HOYA', 'Morgan', 'Zeus']"
+Fiora,Demacia,620,66,0.69,33.0,32.0,345,mana,Midlane,"['Rookie', 'Ucal', 'Vetheo', 'haichao']"
+Fizz,Bilgewater,640,58,0.658,22.0,32.0,335,mana,Midlane,"['Ucal', 'nuc']"
+Galio,Demacia,632,59,0.625,24.0,32.0,340,mana,Midlane,"['Linfeng', 'Shanks']"
+Gangplank,Bilgewater,630,64,0.658,31.0,32.0,345,mana,Support,['ppgod']
+Garen,Demacia,690,69,0.625,38.0,32.0,340,energy,Botlane,"['Comp', 'Hena']"
+Gnar,The Freljord,540,60,0.625,32.0,30.0,335,mana,Toplane,"['Rich', 'Zeus', 'shanji']"
+Gragas,The Freljord,640,64,0.675,38.0,32.0,330,mana,Jungle,"['Lucid', 'Sylvie', 'Xiaohao']"
+Graves,Bilgewater,625,68,0.475,33.0,32.0,340,mana,Support,['Parus']
+Gwen,Shadow Isles,620,63,0.69,39.0,32.0,340,mana,Support,"['Duro', 'Meiko']"
+Hecarim,Shadow Isles,625,66,0.67,32.0,32.0,345,mana,Botlane,"['Diable', 'Elk']"
+Heimerdinger,Piltover,558,56,0.658,19.0,30.0,340,mana,Jungle,
+Hwei,Ionia,580,54,0.69,21.0,30.0,330,mana,Support,"['Andil', 'Keria', 'Zoelys']"
+Illaoi,Bilgewater,656,65,0.625,35.0,32.0,350,mana,Support,"['Delight', 'IgNar', 'Kellin', 'Mikyx', 'Targamas']"
+Irelia,Ionia,630,65,0.656,36.0,30.0,335,mana,Botlane,"['Able', 'Ice', 'Wako']"
+Ivern,Ionia,630,50,0.644,27.0,30.0,330,mana,Support,
+Janna,Zaun,570,47,0.625,28.0,30.0,325,mana,Botlane,['Shaoye']
+Jarvan IV,Demacia,640,64,0.658,36.0,32.0,340,mana,Support,"['Delight', 'Feather', 'GuGer']"
+Jax,Icathia,665,68,0.638,36.0,32.0,350,mana,Support,"['BeryL', 'Meiko', 'ON']"
+Jayce,Piltover,590,59,0.658,22.0,30.0,335,mana,Jungle,"['Cuzz', 'Tianzhen']"
+Jhin,Ionia,655,59,0.625,24.0,30.0,330,mana,Botlane,"['Caliste', 'Hope', 'Ice', 'Patrik']"
+Jinx,Zaun,630,59,0.625,26.0,30.0,325,mana,Midlane,"['Caps', 'Vladi', 'neny']"
+K'Sante,Shurima,625,64,0.625,36.0,30.0,330,mana,Jungle,"['Cuzz', 'Jankos', 'Sheo']"
+Kai'Sa,The Void,640,59,0.644,25.0,30.0,335,mana,Midlane,
+Kalista,Shadow Isles,600,59,0.694,24.0,30.0,330,mana,Jungle,['Peanut']
+Karma,Ionia,630,51,0.625,28.0,30.0,335,mana,Botlane,
+Karthus,Shadow Isles,620,46,0.625,21.0,30.0,335,mana,Midlane,['xqw']
+Kassadin,The Void,646,59,0.64,19.0,30.0,335,mana,Jungle,"['Malrang', 'Sponge', 'Tarzan', 'Xzz']"
+Katarina,Noxus,672,58,0.658,28.0,32.0,335,energy,Toplane,"['Irrelevant', 'sasi']"
+Kayle,Demacia,670,50,0.625,26.0,22.0,335,mana,Support,['Pollu']
+Kayn,Ionia,655,68,0.669,38.0,32.0,340,mana,Jungle,"['Aki', 'Wei']"
+Kennen,Ionia,580,48,0.625,29.0,30.0,335,mana,Toplane,
+Kha'Zix,The Void,643,60,0.668,36.0,32.0,350,mana,Toplane,"['Adam', 'Ale', 'BrokenBlade', 'Solokill']"
+Kindred,Unknown,595,65,0.625,29.0,30.0,325,mana,Support,['Labrov']
+Kled,Noxus,410,65,0.625,35.0,28.0,285,mana,Toplane,['Clear']
+Kled & Skaarl,Noxus,810,65,0.625,35.0,28.0,345,mana,Midlane,['Vladi']
+Kog'Maw,The Void,635,61,0.665,24.0,30.0,330,mana,Support,"['BeryL', 'Jwei', 'Kael']"
+LeBlanc,Noxus,598,55,0.658,22.0,30.0,340,mana,Jungle,"['Weiwei', 'Xiaohao']"
+Lee Sin,Ionia,645,69,0.651,36.0,32.0,345,mana,Jungle,"['Croco', 'XBY']"
+Leona,Targon,646,60,0.625,43.0,32.0,335,mana,Support,['Jinjiao']
+Lillia,Ionia,605,61,0.625,22.0,32.0,330,mana,Support,"['Rosielove', 'Wink']"
+Lissandra,The Freljord,620,55,0.656,22.0,30.0,325,mana,Support,['Trymbi']
+Lucian,Demacia,641,60,0.638,28.0,30.0,335,mana,Support,"['Jun', 'Labrov']"
+Lulu,Bandle City,595,47,0.625,26.0,30.0,330,mana,Support,['Execute']
+Lux,Demacia,580,54,0.669,21.0,30.0,330,mana,Toplane,"['Kiin', 'PerfecT', 'Qingtian', 'Xiaoxu', 'sheer']"
+Malphite,Ixtal,665,62,0.736,37.0,28.0,335,mana,Toplane,"['Breathe', 'DuDu', 'Naak Nako', 'Wayward']"
+Malzahar,The Void,580,55,0.625,18.0,30.0,335,mana,Toplane,"['1Jiang', 'Juice', 'Lot']"
+Maokai,Shadow Isles,665,64,0.8,35.0,32.0,335,mana,Support,"['Lehends', 'Vampire', 'Zhuo']"
+Master Yi,Ionia,669,65,0.679,33.0,32.0,355,mana,Support,"['Alvaro', 'Andil', 'Feather', 'Kellin', 'vital']"
+Mega Gnar,Freljord,640,66,0.625,35.5,33.5,335,mana,Support,['ON']
+Milio,Ixtal,560,48,0.625,26.0,30.0,330,mana,Botlane,
+Miss Fortune,Bilgewater,640,53,0.656,28.0,30.0,325,mana,Botlane,"['Hans Sama', 'JackeyLove', 'Peyz', 'Rahel']"
+Mordekaiser,Noxus,645,61,0.625,37.0,32.0,335,energy,Jungle,['Raptor']
+Morgana,Demacia,630,56,0.625,25.0,30.0,335,mana,Botlane,"['Flakked', 'JackeyLove']"
+Naafiri,Shurima,635,55,0.663,30.0,32.0,340,mana,Midlane,"['Rookie', 'Zeka']"
+Nami,Bilgewater,560,54,0.644,29.0,30.0,335,mana,Toplane,"['Clear', 'DnDn', 'Finn', 'shanji']"
+Nasus,Shurima,631,67,0.638,34.0,32.0,350,mana,Support,"['Kael', 'Zhuo']"
+Nautilus,Bilgewater,646,61,0.706,39.0,32.0,325,mana,Support,['Niket']
+Neeko,Ixtal,610,48,0.625,21.0,30.0,340,mana,Midlane,"['Care', 'Clozer', 'SeTab', 'Shanks']"
+Nidalee,Ixtal,610,58,0.638,32.0,30.0,335,mana,Support,"['Duro', 'Hylissang', 'Stend']"
+Nilah,Kathkan,570,58,0.697,27.0,32.0,340,mana,Jungle,"['H4cker', 'ISMA', 'Markoon', 'Razork', 'Sponge']"
+Nocturne,Unknown,655,62,0.721,38.0,32.0,345,mana,Jungle,"['113', 'Jiejie', 'Tarzan']"
+Nunu & Willump,The Freljord,610,61,0.625,29.0,32.0,345,mana,Botlane,"['Elk', 'Envyy', 'GALA', 'Gumayusi', 'Hans Sama', 'Ruler']"
+Olaf,The Freljord,645,68,0.694,35.0,32.0,350,mana,Jungle,
+Orianna,Piltover,585,44,0.658,20.0,26.0,325,mana,Midlane,"['Pungyeon', 'RKR']"
+Ornn,The Freljord,660,69,0.625,33.0,32.0,335,mana,Midlane,"['Bdd', 'Chovy', 'FATE', 'Scout', 'SeTab', 'Xzz']"
+Pantheon,Targon,650,64,0.658,40.0,28.0,345,mana,Botlane,"['Bull', 'Hope', 'Photic', 'Upset']"
+Poppy,Demacia,610,60,0.658,38.0,32.0,345,mana,Botlane,['Berserker']
+Pyke,Bilgewater,670,62,0.667,43.0,32.0,330,mana,Midlane,"['Larssen', 'Xiaohu', 'Yuekai']"
+Qiyana,Ixtal,590,66,0.688,31.0,32.0,335,mana,Jungle,"['Closer', 'Junhao', 'Tianzhen', 'Xun']"
+Quinn,Demacia,565,59,0.668,28.0,30.0,330,mana,Midlane,
+Rakan,Ionia,610,62,0.635,30.0,32.0,335,mana,Midlane,['BuLLDoG']
+Rammus,Shurima,675,55,0.656,40.0,32.0,335,mana,Midlane,"['FoFo', 'Scout', 'Xiaohu']"
+Rek'Sai,The Void,600,58,0.667,36.0,32.0,340,mana,Midlane,"['Angel', 'Humanoid', 'Jojopyun', 'haichao']"
+Rell,Noxus,610,55,0.625,36.0,30.0,330,mana,Midlane,"['ShowMaker', 'nuc']"
+Renata Glasc,Zaun,545,49,0.625,27.0,30.0,330,mana,Midlane,"['knight', 'kyeahoo']"
+Renekton,Shurima,660,69,0.665,35.0,28.0,345,mana,Jungle,['Lyncas']
+Rengar,Ixtal,590,68,0.667,34.0,32.0,345,mana,Support,"['Hang', 'Loopy']"
+Riven,Noxus,630,64,0.625,33.0,32.0,340,energy,Botlane,"['Carzzy', 'JiaQi', 'Light']"
+Rumble,Bandle City,655,64,0.644,36.0,28.0,345,mana,Toplane,"['Adam', 'Mihile']"
+Ryze,Runeterra,645,58,0.658,22.0,32.0,340,mana,Toplane,['Rascal']
+Samira,Noxus,630,57,0.658,26.0,30.0,335,mana,Support,"['Lele', 'Targamas']"
+Sejuani,The Freljord,630,66,0.688,34.0,32.0,340,mana,Jungle,"['Geju', 'Jiejie', 'Meteor', 'Razork', 'Tian']"
+Senna,Shadow Isles,530,50,0.625,25.0,30.0,330,mana,Botlane,"['Aiming', 'Flakked', 'Noah', 'bat']"
+Seraphine,Piltover,570,50,0.669,26.0,30.0,330,mana,Jungle,
+Sett,Ionia,670,60,0.625,33.0,28.0,340,energy,Midlane,['Angel']
+Shaco,Unknown,630,63,0.694,30.0,32.0,345,mana,Toplane,['Doran']
+Shen,Ionia,610,64,0.751,34.0,32.0,340,mana,Jungle,['Lyncas']
+Shyvana,Demacia,665,66,0.658,38.0,32.0,350,mana,Toplane,"['Siwoo', 'TheShy', 'Zika']"
+Singed,Zaun,650,63,0.625,34.0,32.0,345,mana,Toplane,"['Breathe', 'Morgan']"
+Sion,Noxus,655,68,0.679,32.0,32.0,345,mana,Midlane,['Creme']
+Sivir,Shurima,600,60,0.625,30.0,30.0,335,mana,Botlane,
+Skarner,Ixtal,630,63,0.625,33.0,32.0,335,mana,Support,['Ycx']
+Smolder,Camavor,575,60,0.638,26.0,30.0,330,mana,Midlane,['Jackies']
+Sona,Demacia,550,49,0.644,26.0,30.0,325,mana,Support,"['Iwandy', 'Moham']"
+Soraka,Targon,605,50,0.625,32.0,30.0,325,mana,Support,"['Crisp', 'ppgod']"
+Swain,Noxus,595,58,0.625,26.0,31.0,330,mana,Support,['Life']
+Sylas,Demacia,600,61,0.645,29.0,32.0,340,mana,Toplane,"['Bin', 'Burdol', 'Canna', 'DuDu', 'Irrelevant', 'Photon', 'YSKM']"
+Syndra,Ionia,563,54,0.658,25.0,30.0,330,mana,Botlane,['LazyFeel']
+Tahm Kench,Bilgewater,640,56,0.658,42.0,32.0,335,mana,Botlane,"['1xn', 'Light', 'Smash', 'deokdam', 'huanfeng']"
+Taliyah,Shurima,550,58,0.658,18.0,30.0,330,mana,Jungle,['Lucid']
+Talon,Noxus,658,68,0.625,30.0,39.0,335,mana,Support,['MISSING']
+Taric,Targon,645,55,0.625,40.0,28.0,340,mana,Support,"['Life', 'Luon', 'Moham', 'Pollu']"
+Teemo,Bandle City,615,54,0.69,24.0,30.0,330,mana,Midlane,"['Doinb', 'knight']"
+Thresh,Shadow Isles,600,56,0.625,33.0,30.0,330,mana,Jungle,"['Aki', 'Closer', 'Leyan', 'milkyway']"
+Tristana,Bandle City,640,60,0.656,30.0,28.0,325,mana,Midlane,"['Chovy', 'Humanoid', 'Zwyroo']"
+Trundle,The Freljord,650,68,0.67,37.0,32.0,350,mana,Toplane,"['Canna', 'Xiaoxu']"
+Tryndamere,The Freljord,696,66,0.67,33.0,32.0,345,mana,Jungle,"['Oner', 'Pyosik', 'Raptor', 'Sheo', 'Wei']"
+Twisted Fate,Bilgewater,604,52,0.625,21.0,30.0,330,mana,Botlane,['Starry']
+Twitch,Zaun,630,59,0.679,27.0,30.0,330,mana,Botlane,"['Assum', 'GALA', 'Photic', 'Teddy']"
+Udyr,The Freljord,664,62,0.65,31.0,32.0,350,mana,Midlane,"['Care', 'Karis']"
+Urgot,Zaun,655,63,0.625,36.0,32.0,330,mana,Midlane,"['Fresskowy', 'Larssen', 'Tangyuan']"
+Varus,Ionia,600,59,0.658,27.0,30.0,330,mana,Support,
+Vayne,Demacia,550,60,0.658,23.0,30.0,330,mana,Jungle,"['Elyoya', 'Iwandy', 'Xun', 'Yike']"
+Veigar,Bandle City,580,52,0.625,18.0,32.0,340,mana,Botlane,"['Carzzy', 'Jiwoo']"
+Vel'Koz,The Void,590,55,0.643,22.0,30.0,340,mana,Jungle,"['Elyoya', 'Heng']"
+Vex,Shadow Isles,590,54,0.669,23.0,28.0,335,mana,Support,
+Vi,Piltover,655,63,0.644,30.0,32.0,340,mana,Botlane,"['Paduck', 'Ruler', 'Samver']"
+Viego,Shadow Isles,630,60,0.658,34.0,32.0,345,energy,Botlane,"['Hype', 'Leave']"
+Viktor,Zaun,600,53,0.658,23.0,30.0,335,mana,Midlane,"['Jackies', 'Kamiloo', 'VicLa', 'Yagao']"
+Vladimir,Noxus,607,55,0.658,27.0,30.0,330,mana,Support,['Jwei']
+Volibear,The Freljord,650,60,0.625,31.0,32.0,340,mana,Toplane,"['Frog', 'Kiin', 'Xiaolaohu', 'Zdz']"
+Warwick,Zaun,620,65,0.638,33.0,32.0,335,mana,Jungle,['Climber']
+Wukong,Ionia,610,66,0.69,31.0,28.0,340,mana,Support,"['Hylissang', 'Pleata', 'Wink']"
+Xayah,Ionia,630,60,0.658,25.0,30.0,330,mana,Jungle,['Yanxiang']
+Xerath,Shurima,596,55,0.658,22.0,30.0,340,mana,Jungle,"['Canyon', 'DDoiV', 'SkewMond', 'Tian']"
+Xin Zhao,Demacia,640,63,0.645,35.0,32.0,345,mana,Support,"['Crisp', 'Quantum', 'Tangyuan', 'Vampire']"
+Yasuo,Ionia,590,60,0.697,32.0,32.0,345,mana,Botlane,"['Doggo', 'Noah']"
+Yone,Ionia,620,60,0.625,33.0,32.0,345,mana,Midlane,"['Karis', 'ShowMaker']"
+Yorick,Shadow Isles,650,62,0.625,39.0,32.0,340,mana,Botlane,"['Peyz', 'Supa', 'Viper']"
+Yuumi,Bandle City,500,49,0.625,25.0,25.0,330,mana,Toplane,"['Cube', 'Hery', 'Kingen']"
+Zac,Zaun,685,60,0.736,33.0,32.0,340,energy,Midlane,"['Bdd', 'Caps']"
+Zed,Ionia,654,63,0.651,32.0,29.0,345,mana,Midlane,['Fisher']
+Zeri,Zaun,600,56,0.658,24.0,30.0,330,mana,Jungle,
+Ziggs,Zaun,606,55,0.656,21.0,30.0,325,mana,Botlane,"['Jiwoo', 'Supa']"
+Zilean,Icathia,574,52,0.658,24.0,30.0,335,mana,Botlane,"['Kepler', 'Leave']"
+Zoe,Targon,630,58,0.658,21.0,30.0,340,mana,Support,['Mark']
+Zyra,Ixtal,574,53,0.681,29.0,30.0,340,mana,Toplane,"['369', 'Ale', 'BrokenBlade', 'HOYA', 'Wunder']"
