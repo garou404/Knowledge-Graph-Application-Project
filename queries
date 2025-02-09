@@ -1,0 +1,115 @@
+Teammate rule:
+
+[rule2: (?A rdf:type ns:Roster) (?A ns:rosterYear 2025) (?B rdf:type ns:Player) (?C rdf:type ns:Player) (?A ns:hasPlayer ?B) (?A ns:hasPlayer ?C) notEqual(?B, ?C) -> (?B ns:isTeammateOf ?C)]
+
+Get players of (champion)
+
+SELECT ?champion ?player
+WHERE {
+	 ?champion rdf:type ns:Champion .
+	?champion ns:championName "Jinx" .
+	 ?champion ns:isPlayedBy ?player .
+}
+
+
+Get champions mostly played by a (player)
+
+SELECT ?player ?champion
+WHERE {
+	 ?player rdf:type ns:Player .
+	?player ns:summonerName "Caps" .
+	 ?player ns:playsMostly ?champion .
+}
+
+Get team of a (player)
+
+SELECT ?player ?team_name
+WHERE {
+	 ?team rdf:type ns:Team .
+	?team ns:hasRoster ?roster .
+	?team ns:teamName ?team_name .
+	?roster ns:rosterYear 2025 .
+	?roster ns:hasPlayer ?player .
+	?player ns:summonerName "Vladi" .
+}
+
+Get teammates of a (player)
+
+
+SELECT ?player ?teammate_name
+WHERE {
+	?player rdf:type ns:Player .
+	?player ns:summonerName "Vladi" .
+	?player ns:isTeammateOf ?teammate .
+	?teammate rdf:type ns:Player .
+	?teammate ns:summonerName ?teammate_name .
+}
+
+Get every players that play for a (team) with roster year
+
+SELECT distinct ?player_name ?roster_year
+WHERE {
+	?player rdf:type ns:Player .
+	?player ns:summonerName ?player_name .
+	?player ns:playsInRoster ?roster .
+	?roster ns:rosterYear ?roster_year .
+	?roster ns:belongsToTeam ?team .
+	?team ns:teamName "Karmine Corp" .
+}
+
+Get every players that play for a (team) without roster year
+
+SELECT distinct ?player_name
+WHERE {
+	?player rdf:type ns:Player .
+	?player ns:summonerName ?player_name .
+	?player ns:playsInRoster ?roster .
+	?roster ns:belongsToTeam ?team .
+	?team ns:teamName "Karmine Corp" .
+}
+
+Get every champions from a (faction)
+
+SELECT ?champion_name
+WHERE {
+	?champion rdf:type ns:Champion .
+	?champion ns:championName ?champion_name .
+	?champion ns:hasFaction ?faction .
+	?faction ns:factionName "Zaun" .
+}
+
+Get every player of a certain (role)
+
+SELECT ?player_name
+WHERE {
+	?role rdf:type ns:Role .
+	?role ns:roleName "Toplane" .
+	?role ns:isPrimaryRoleFor ?player .
+	?player ns:summonerName ?player_name .
+}
+
+Get nb of nationality per region
+
+SELECT ?nationa (COUNT(?player) AS ?test)
+WHERE {
+	?player rdf:type ns:Player .
+	?player ns:nationality ?nationa .
+}
+GROUP BY ?nationa
+
+Get nb of player per region
+
+...
+
+Get nationalities of a (team)7
+
+SELECT distinct ?natio
+{
+	?team a ns:Team ;
+		ns:hasRoster ?roster ;
+		ns:teamName "Karmine Corp" .
+	?roster ns:rosterYear 2025 ;
+		ns:hasPlayer ?player .
+	?player ns:nationality ?natio
+}
+
