@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/jena-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/jena-tdb-0.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/charles-m/Projects/ASR/CSC5003/jena/jena2/FichiersTpJena2023/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,6 @@
+@prefix ns: <http://www.semanticweb.org/charles-m/ontologies/2025/1/untitled-ontology-22#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+
+//@include <OWL>. 
+
+[rule2: (?A rdf:type ns:Roster) (?A ns:rosterYear 2025) (?B rdf:type ns:Player) (?C rdf:type ns:Player) (?A ns:hasPlayer ?B) (?A ns:hasPlayer ?C) notEqual(?B, ?C) -> (?B ns:isTeammateOf ?C)]
