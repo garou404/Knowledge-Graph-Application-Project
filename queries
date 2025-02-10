@@ -1,7 +1,3 @@
-Teammate rule:
-
-[rule2: (?A rdf:type ns:Roster) (?A ns:rosterYear 2025) (?B rdf:type ns:Player) (?C rdf:type ns:Player) (?A ns:hasPlayer ?B) (?A ns:hasPlayer ?C) notEqual(?B, ?C) -> (?B ns:isTeammateOf ?C)]
-
 Get players of (champion)
 
 SELECT ?champion ?player
@@ -113,3 +109,151 @@ SELECT distinct ?natio
 	?player ns:nationality ?natio
 }
 
+
+
+List teams that exist
+
+SELECT ?team_name
+WHERE {
+	 ?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	   	
+}
+
+List different regions of teams 
+
+SELECT distinct ?region
+WHERE {
+	 ?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	?team ns:region ?region
+}
+
+List the teams per region
+
+SELECT ?team_name ?region
+WHERE {
+	 ?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	?team ns:region ?region
+}
+
+List teams and their players
+
+SELECT ?team_name ?player_name
+WHERE {
+	?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	?team ns:hasRoster ?roster .
+	?roster ns:rosterYear 2025 .
+	?roster ns:hasPlayer ?player .
+	?player ns:summonerName ?player_name .
+}
+
+
+List players and their team
+
+SELECT ?player_name ?team_name
+WHERE {
+	?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	?team ns:hasRoster ?roster .
+	?roster ns:rosterYear 2025 .
+	?roster ns:hasPlayer ?player .
+	?player ns:summonerName ?player_name .
+}
+
+List players of a region and their nationality
+
+SELECT ?player_name ?natio ?region ?team_name
+WHERE {
+	?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	?team ns:region ?region .
+	?team ns:hasRoster ?roster .
+	?roster ns:rosterYear 2025 .
+	?roster ns:hasPlayer ?player .
+	?player ns:summonerName ?player_name ;
+		ns:nationality ?natio
+	
+}
+
+
+List every team a player played for
+
+SELECT  ?player ?team_name ?year
+WHERE {
+	?team rdf:type ns:Team .
+	?team ns:teamName ?team_name .
+	?team ns:hasRoster ?roster .
+	?roster ns:hasPlayer ?player .
+	?roster ns:rosterYear ?year .
+	?player ns:summonerName "Vladi"
+}
+
+List all champions and theoir stats:
+
+SELECT  ?champion_name ?HP ?attack_damage ?attack_speed ?armor ?magic_resist ?movement_speed ?resource_type
+WHERE {
+	?champion rdf:type ns:Champion ;
+		ns:championName ?champion_name ;
+		ns:healthPoints ?HP ;
+		ns:attackDamage ?attack_damage ;
+		ns:attackSpeed ?attack_speed ;
+		ns:armor ?armor ;
+		ns:magicResist ?magic_resist ;
+		ns:movementSpeed ?movement_speed ;
+		ns:resourceType ?resource_type .
+
+}
+
+List all champions and their factions
+
+
+SELECT  ?champion_name ?faction
+WHERE {
+	?champion rdf:type ns:Champion ;
+		ns:championName ?champion_name ;
+		ns:hasFaction ?faction
+
+}
+
+List all champions and the players that play them
+
+SELECT  ?champion_name ?player
+WHERE {
+	?champion rdf:type ns:Champion ;
+		ns:championName ?champion_name ;
+		ns:isPlayedBy ?player
+
+}
+
+list the five roles
+
+SELECT ?role_name
+WHERE {
+	?champion rdf:type ns:Role ;
+		ns:roleName ?role_name ;
+}
+
+list the player that play a role
+
+SELECT ?player_name
+WHERE {
+	?player rdf:type ns:Player ;
+		ns:summonerName ?player_name ;
+		ns:playsRole ?role .
+	?role ns:roleName "Midlane" .
+	
+}
+
+list champions and their main role
+
+SELECT ?champion_name
+WHERE {
+	?champion rdf:type ns:Champion ;
+		ns:championName ?champion_name ;
+		ns:hasPrimaryRole ?role .
+	?role ns:roleName "Midlane" .
+	
+}
