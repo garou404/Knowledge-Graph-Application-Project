@@ -56,11 +56,10 @@ public class Main {
 						+ "3 => List the teams per region\n" // V
 						+ "4 => List teams and their players\n" // V
 						+ "5 => List the different nationalities in a team\n" // V
-						+ "6 => List all players that play for a team\n" // V
-						+ "7 => List every players that play for a team with year\n"); // V
+						+ "6 => List all players that currently play for a team\n" // V
+						+ "7 => List every players that play or played for a team with year\n"); // V
 				String team_question_index = new_scanner.nextLine();
 				String team = "";
-				String year = "";
 				switch (team_question_index) {
 				case "1":
 	                System.out.println(executor.listTeams());
@@ -87,8 +86,6 @@ public class Main {
 	            case "7":
 	            	System.out.println("type the name of a team: ");
 	            	team = new_scanner.nextLine();
-	            	System.out.println("\ntype a year (2024 or 2025)");
-	            	year = new_scanner.nextLine();
 	                System.out.println(executor.getPlayersOfTeamWithYear(team));
 	                break;
 	            default:
@@ -122,7 +119,7 @@ public class Main {
 	            case "4":
 	            	System.out.println("type the name of a player: ");
 	            	player = new_scanner.nextLine();
-	                System.out.println(executor.getTeammatesOfPlayer(player));
+	                System.out.println(executor.getTeamOfPlayer(player));
 	                break;
 	            case "5":
 	            	System.out.println("type the name of a player: ");

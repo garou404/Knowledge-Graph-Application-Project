@@ -78,7 +78,8 @@ public class JenaSPARQLExecutor {
                 "?player ns:playsInRoster ?roster . " +
                 "?roster ns:rosterYear ?roster_year . " +
                 "?roster ns:belongsToTeam ?team . " +
-                "?team ns:teamName \"" + team + "\" . }";
+                "?team ns:teamName \"" + team + "\" . }"
+                		+ "\nORDER BY (?roster_year)";
         return executeQuery(query);
     }
 
@@ -87,6 +88,7 @@ public class JenaSPARQLExecutor {
                 "?player rdf:type ns:Player . " +
                 "?player ns:summonerName ?player_name . " +
                 "?player ns:playsInRoster ?roster . " +
+                "?roster ns:rosterYear 2025 . " +
                 "?roster ns:belongsToTeam ?team . " +
                 "?team ns:teamName \"" + team + "\" . }";
         return executeQuery(query);
@@ -214,10 +216,11 @@ public class JenaSPARQLExecutor {
     }
 
     public String listChampionsAndFactions() {
-        String query = "SELECT ?champion_name ?faction WHERE { " +
+        String query = "SELECT ?champion_name ?faction_name WHERE { " +
                 "?champion rdf:type ns:Champion ; " +
                 "ns:championName ?champion_name ; " +
-                "ns:hasFaction ?faction . }";
+                "ns:hasFaction ?faction . "+ 
+                "?faction ns:factionName ?faction_name . }";
         return executeQuery(query);
     }
 
